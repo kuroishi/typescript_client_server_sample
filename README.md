@@ -20,7 +20,8 @@ client
 
 test
 ----
-npx jest
+(no need to build)
+% npx jest
 
 
 ref. https://kazuhira-r.hatenablog.com/entry/2021/11/20/222927
