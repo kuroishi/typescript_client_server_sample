@@ -1,0 +1,10 @@
+
+
+import { server } from '../src/server';
+
+beforeAll {
+    () => new Promise((resolve, reject) => {
+	server.listen({host: address, port: port},
+		      () => {resolve('start')});
+    });
+}
